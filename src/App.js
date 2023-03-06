@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import {Routes,Route,useLocation} from 'react-router-dom';
 import Home from './containers/home';
 import About from './containers/about';
@@ -9,8 +9,6 @@ import Contact from './containers/contact';
 import Navbar from './components/navBar';
 import Particles from 'react-tsparticles';
 import {loadFull} from 'tsparticles';
-// import my_obj from "./utils/particle.json"
-//const particle = require("../utils/particle.json");
 import particle from "./utils/particle";
 import {useCallback} from 'react';
 
@@ -23,7 +21,7 @@ function App() {
         const showParticleJsInHomePage = location.pathname === "/";
 
     const particlesInit = useCallback(async (main)=>{
-      console.log(main);
+      //console.log(main);
       // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
       // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
       // starting from v2 you can add only the features you need reducing the bundle size
@@ -46,9 +44,14 @@ function App() {
       {/* navbar */}
         <Navbar />
       {/* main page content */}
-
+        {/* <About headerText="About Me" icon="fas fa-user-circle" />
+        <Resume headerText="My Resume" icon = "fas fa-file-alt" />
+        <Portfolio headerText="My Portfolio" icon = "fas fa-folder-open" />
+        <Skills headerText="My Skills" icon = "fas fa-graduation-cap" />
+        <Contact headerText="Contact Me" icon = "fas fa-envelope" /> */}
       {/* routings */}
-      <Routes>
+       <div className="App__main-page-content">
+       <Routes>
         <Route index path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/resume" element={<Resume />} />
@@ -56,6 +59,7 @@ function App() {
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+       </div>
     </div>
   );
 }

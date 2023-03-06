@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Blinker:wght@500&display=swap');
 
 :root{
-    --tomato-theme-background-color: #ffffff;
-    --tomato-theme-main-color: red;
-    --tomato-theme-sub-text-color: #2f2f2f;
-    --tomato-theme-nav-background-color: #1a1a1a;
+    --tomato-theme-background-color: #FFDB89;
+    --tomato-theme-main-color: #CD0404;
+    --tomato-theme-sub-text-color: #850000;
+    --tomato-theme-nav-background-color: #FFF6C3;
 }
 
 /* Universal Selector */

@@ -1,10 +1,10 @@
  const particle =    { 
     background: {
         color: {
-            value: "#0d47a1",
+            value: "#30E3DF",
         },
     },
-    fpsLimit: 50,
+    fpsLimit: 60,
     interactivity: {
         events: {
             onClick: {
@@ -29,7 +29,7 @@
     },
     particles: {
         color: {
-            value: "#ffff00",
+            value: "#E7B10A",
         },
         links: {
             color: "#ffffff",
