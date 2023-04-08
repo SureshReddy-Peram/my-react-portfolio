@@ -18,7 +18,8 @@
         &__logo{
             color: var(--tomato-theme-main-color);
             cursor: pointer;
-         }       
+         }
+             
      }
 
      &__menu{
@@ -55,7 +56,7 @@
     }     
 }
 
-.navbar-menuicon{
+.navbar__menuicon{
     display: none;
 }
 

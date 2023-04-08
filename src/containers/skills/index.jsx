@@ -1,7 +1,7 @@
 import React from "react";
 import PageHeader from "../../components/pageHeader";
 import { BsInfoCircleFill } from "react-icons/bs";
-import { skillsData } from "../../utils/skillsData";
+import { skillsData}  from "./utils";
 import { Animate, AnimateKeyframes } from "react-simple-animate";
 import {Line} from 'rc-progress';
 import './styles.scss';
@@ -32,7 +32,7 @@ const Skills = () => {
                   transform: `translateX(0px)`,
                 }}
               >
-                <h3 className="skills__content-wrapper__inner-content__item"> {item.label} </h3>
+                <h3 className="skills__content-wrapper__inner-content__skillItem"> {item.label} </h3>
 
                 <div>
                     {
@@ -48,7 +48,7 @@ const Skills = () => {
                                     <Line
                                       percent= {skillItem.percentage}
                                       strokeWidth= "2"
-                                      strokeColor= "yellowgreen"
+                                      strokeColor= "green"
                                       strokeLinecap="round"
                                       trailWidth= "2"
                                       trailColor="yellow"

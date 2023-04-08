@@ -33,7 +33,7 @@ import './styles.scss';
 
 const About = ()=>{
 
-  const jobSummary = 'I am Frontend Developer with 3-years of experience. Proficient in HTML, CSS, Javascript, Bootstrap, JQuery, ReactJS, NodeJS, ExpressJS, Mongodb, MySQL, Oracledb, Github and more. I can develop attractive User Interface designs, responsive websites and mobile applications. Extensively worked with third party libraries and APIs. I can create reusable components and functionalities. ';
+  const jobSummary = 'I am Frontend Developer with 2-years 6-months of experience. Proficient in HTML, CSS, Javascript, Bootstrap, JQuery, ReactJS, NodeJS, ExpressJS, Mongodb, MySQL, Oracledb, Github and more. I can develop attractive User Interface designs, responsive websites and mobile applications. Extensively worked with third party libraries and APIs. I can create reusable components and functionalities. ';
     return (
         <>
           <section id="about" className="about">
