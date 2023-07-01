@@ -12,25 +12,25 @@ const portfolioData = [
     id: 2,
     name: "E-Commerce",
     image: ImageOne,
-    link: "",
+    link: "https://github.com/SureshReddy-Peram/react-basic-app/tree/react-basics/src",
   },
   {
     id: 3,
     name: "Notes",
     image: ImageTwo,
-    link: "",
+    link: "https://github.com/SureshReddy-Peram/react-basic-app/tree/react-basics/src",
   },
   {
     id: 2,
     name: "Movies",
     image: ImageThree,
-    link: "",
+    link: "https://github.com/SureshReddy-Peram/movies-app",
   },
   {
     id: 3,
     name: "Calculator",
     image: ImageFour,
-    link: "",
+    link: "https://github.com/SureshReddy-Peram/react-basic-app/tree/react-basics/src",
   },
 ];
 
@@ -105,7 +105,7 @@ const Portfolio = () => {
                 onMouseLeave={() => handleHover(null)}
               >
                 <div className="portfolio__content__cards__item__img-wrapper">
-                  <a href="_blank">
+                  <a href={item.link}>
                     {" "}
                     <img src={item.image} alt="pics" />
                   </a>
@@ -115,7 +115,7 @@ const Portfolio = () => {
                         index === hoveredValue && (
                             <div>
                               <p>{item.name}</p>
-                              <button type="button">Visit</button>
+                              <button type="button"> <a href={item.link}>Visit</a></button>
                             </div>
                         )
                     }
