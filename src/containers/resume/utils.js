@@ -11,7 +11,7 @@ export const data = {
             title: 'Project Engineer',
             company : 'Johnson Lifts pvt ltd, ',
             location: 'Hyderabad, India',
-            period: 'From June 2015 to July 2019',
+            period: 'From June 2015 to June 2021',
             description:'Project Management, Quality and Safety audits'
         },
         {
