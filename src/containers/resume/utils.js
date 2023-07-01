@@ -4,7 +4,7 @@ export const data = {
             title: 'Front-End Developer',
             company : 'Netsoft Business Systems pvt ltd ',
             location: 'Bangalore, India',
-            period: 'From January 2020 to till now',
+            period: 'From July 2021 to May 2023',
             description:'Web Development, Mobile Development, Databases',
         },
         {
